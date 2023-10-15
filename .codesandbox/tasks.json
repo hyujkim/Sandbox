@@ -11,23 +11,23 @@
   "tasks": {
     "build": {
       "name": "build",
-      "command": "yarn build",
-      "runAtStart": false
+      "command": "yarn build"
     },
     "dev": {
       "name": "dev",
       "command": "yarn dev",
-      "runAtStart": true
+      "runAtStart": true,
+      "preview": {
+        "port": 1234
+      }
     },
     "storybook": {
       "name": "storybook",
-      "command": "yarn storybook",
-      "runAtStart": false
+      "command": "yarn storybook"
     },
     "build-storybook": {
       "name": "build-storybook",
-      "command": "yarn build-storybook",
-      "runAtStart": false
+      "command": "yarn build-storybook"
     }
   }
 }
