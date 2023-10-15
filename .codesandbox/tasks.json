@@ -16,7 +16,10 @@
     "dev": {
       "name": "dev",
       "command": "yarn dev",
-      "runAtStart": true
+      "runAtStart": true,
+      "preview": {
+        "port": 1234
+      }
     },
     "storybook": {
       "name": "storybook",
